@@ -3,9 +3,12 @@
 import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
+import { useFitLog } from "../context/FitLogContext";
 
 export default function Navbar() {
   const pathname = usePathname();
+
+  const { plan, saved } = useFitLog();
 
   const isHome = pathname === "/";
   const isMyPlan = pathname === "/my-plan";
@@ -64,7 +67,7 @@ export default function Navbar() {
             className="flex items-center gap-2 rounded-full bg-[#C2F800] px-3 py-2 text-xs font-bold text-black transition hover:bg-[#CCFF00]"
           >
             <span>Plan</span>
-            <span>0</span>
+            <span>{plan.length}</span>
           </Link>
 
           <Link
@@ -72,7 +75,7 @@ export default function Navbar() {
             className="flex items-center gap-2 rounded-full border border-[#374151] px-3 py-2 text-xs font-bold text-white transition hover:border-[#C2F800]"
           >
             <span>Saved</span>
-            <span>0</span>
+            <span>{saved.length}</span>
           </Link>
         </div>
       </nav>
