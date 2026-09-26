@@ -1,36 +1,46 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# FitLog_A06 🏋️
 
-## Getting Started
+A modern and responsive workout library and workout planning web application built with **Next.js, JavaScript, Tailwind CSS, and React Context API**.
 
-First, run the development server:
+FitLog allows users to browse workouts, view detailed exercise information, save workouts for later, and build a personalized daily workout plan.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ✨ Features
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- Browse a workout library containing **12 workouts**
+- Fetch workout data dynamically from the **FitLog REST API**
+- Display workout images directly from the API
+- View detailed information for each workout
+- Add workouts to **Today's Plan**
+- Save workouts for later
+- Prevent duplicate workouts from being added or saved
+- Limit Today's Plan to **5 workouts**
+- View **Exercises, Minutes, and Calories** metrics
+- Mark planned workouts as **Done**
+- Remove workouts from the plan or saved list
+- Sort workouts by:
+  - Duration
+  - Calories
+  - Rating
+- Persistent Plan and Saved data using **localStorage**
+- Toast notifications for successful and duplicate actions
+- Loading state for API-driven pages
+- Custom **404 Not Found** page
+- Fully responsive layout for mobile, tablet, and desktop
+- Dynamic workout routes using Next.js App Router
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🛠️ Technologies Used
 
-To learn more about Next.js, take a look at the following resources:
+- **Next.js**
+- **JavaScript**
+- **React**
+- **Tailwind CSS**
+- **React Context API**
+- **REST API**
+- **Next.js App Router**
+- **localStorage**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
