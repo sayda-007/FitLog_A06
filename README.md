@@ -5,8 +5,11 @@ A modern and responsive workout library and workout planning web application bui
 FitLog allows users to browse workouts, view detailed exercise information, save workouts for later, and build a personalized daily workout plan.
 
 ---
-🌐 [Live Page](https://fit-log-a06-gilt.vercel.app)
 
+## Live Page 
+🌐[Click Here](https://fit-log-a06-gilt.vercel.app)
+
+---
 
 ## ✨ Features
 
