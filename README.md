@@ -5,6 +5,8 @@ A modern and responsive workout library and workout planning web application bui
 FitLog allows users to browse workouts, view detailed exercise information, save workouts for later, and build a personalized daily workout plan.
 
 ---
+🌐 [Live Page](https://devstack-a05-007.netlify.app/)
+
 
 ## ✨ Features
 
